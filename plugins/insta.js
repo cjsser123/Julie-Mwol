@@ -1,34 +1,5 @@
-Skip to content
-Search or jump to…
-Pulls
-Issues
-Marketplace
-Explore
- 
-@cjsser123 
-lyfe00011
-/
-whatsapp-bot
-Public
-2
-4298
-Code
-Issues
-Pull requests
-Actions
-Projects
-Wiki
-Security
-Insights
-whatsapp-bot/plugins/instagram.js /
-@lyfe00011
-lyfe00011 forward voice note issue fix
-Latest commit b78edef on 6 Oct
- History
- 1 contributor
-100 lines (98 sloc)  3.13 KB
-  
-const Asena = require("../Utilis/events");
+
+ const Asena = require("../Utilis/events");
 const { MessageType, Mimetype } = require("@adiwajshing/baileys");
 const { getBuffer, igStory, downVideo } = require("../Utilis/download");
 const { instagram } = require("../Utilis/Misc");
@@ -128,16 +99,3 @@ Asena.addCommand(
     );
   }
 );
-© 2021 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
-Loading complete
